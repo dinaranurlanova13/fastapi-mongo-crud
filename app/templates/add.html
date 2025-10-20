@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>{{ title }}</title></head>
+<body>
+  <h1>Добавить элемент</h1>
+  <form method="post" action="/add">
+    <label>Название: <input type="text" name="name" required></label><br><br>
+    <label>Описание: <input type="text" name="description"></label><br><br>
+    <button type="submit">Добавить</button>
+  </form>
+  <p><a href="/data">К списку</a></p>
+</body>
+</html>
