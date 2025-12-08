@@ -26,4 +26,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops-demo:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/fastapi-app:latest
